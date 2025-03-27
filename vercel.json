@@ -3,16 +3,20 @@
     "builds": [
       {
         "src": "package.json",
-        "use": "@vercel/static-build",
+        "use": "@vercel/next",
         "config": {
-          "distDir": "build"
+          "outputDirectory": ".next"
         }
       }
     ],
     "routes": [
       {
-        "src": "/(.*)",
-        "dest": "/index.html"
+        "src": "/_next/static/(.*)",
+        "dest": "/_next/static/$1"
+      },
+      {
+        "src": "/(.*)", 
+        "dest": "/"
       }
     ]
   }
