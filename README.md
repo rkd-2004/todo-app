@@ -1,51 +1,38 @@
-Overview
-A full-stack task management application with real-time weather integration, featuring:
+# Todo App with Weather Integration
+A responsive todo application with real-time weather integration built with React, Redux, and OpenWeatherMap API.
 
-Task CRUD operations
-Priority-based task organization
-Location-based weather display
-User authentication flow
-Responsive mobile-first design
+## Features
 
-Features
-✅ Add/delete tasks with priorities
-✅ Real-time weather display
-✅ Mobile-responsive UI
-✅ Mock user authentication
-✅ Local storage persistence
-✅ Error handling and fallbacks
+- 📝 **Task Management**
+  - Add, edit, and delete tasks
+  - Set priority levels (High/Medium/Low)
+  - Local storage persistence
 
-Screenshots
-Main Interface
-Main Screen
-Show tasks list with weather widget
+- 🌦️ **Weather Integration**
+  - Automatic location detection
+  - Current temperature and conditions
+  - Fallback to London weather
 
-Mobile View
-Mobile
-Demonstrate responsive design
+- 🔒 **User Authentication**
+  - Mock login/logout flow
+  - Protected routes
 
-Authentication Flow
-Login
-Show login/logout screens
+- 📱 **Responsive Design**
+  - Mobile-first approach
+  - Works on all screen sizes
 
-Error States
-Error
-Display error handling UI
+## Screenshots
 
-Installation
+| Feature | Preview |
+|---------|---------|
+ ![Main Screen-1](./images/ss1.png) |
+![Main Screen-1](./images/ss2.png) |
+[Main Screen-3](./images/ss3.png) |
+ ![Login](./images/ss4.png) |
 
-1. git clone https://github.com/rkd-2004/todo-app.git
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/rkd-2004/todo-app.git
 cd todo-app
-
-2. # Install dependencies
-npm install
-
-3. # Start development server
-npm start
-
-4. Configuration
-Create .env file:
-
-env
-REACT_APP_WEATHER_API_KEY=your_openweathermap_api_key
-Get free API key from OpenWeatherMap
