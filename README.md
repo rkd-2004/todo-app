@@ -52,3 +52,14 @@ A responsive todo application with real-time weather integration built with Reac
 4. **Start development server:**
 
       npm start
+
+
+## 🌐 Deployment  
+**Live Demo:** [https://todo-app1-ebon.vercel.app/](https://todo-app1-ebon.vercel.app/)  
+
+### How to Deploy  
+1. Sign up on [Vercel](https://vercel.com)  
+2. Import your GitHub repository  
+3. Add environment variables:  
+   ```env
+   REACT_APP_WEATHER_API_KEY=your_api_key
