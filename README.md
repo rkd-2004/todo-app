@@ -41,7 +41,7 @@ cd todo-app
 
 
 npm install
-# or
+or
 pnpm install
 
 3. **Create .env file:**
@@ -50,5 +50,5 @@ env
 REACT_APP_WEATHER_API_KEY=your_api_key_here
 
 4. **Start development server:**
-   
+
 npm start
