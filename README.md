@@ -34,21 +34,21 @@ A responsive todo application with real-time weather integration built with Reac
 
 1. **Clone the repository:**
 
-git clone https://github.com/rkd-2004/todo-app.git
-cd todo-app
+     git clone https://github.com/rkd-2004/todo-app.git
+     cd todo-app
 
 2. **Install dependencies:**
 
 
-npm install
-or
-pnpm install
+      npm install
+      or
+      pnpm install
 
 3. **Create .env file:**
 
-env
-REACT_APP_WEATHER_API_KEY=your_api_key_here
+      env
+      REACT_APP_WEATHER_API_KEY=your_api_key_here
 
 4. **Start development server:**
 
-npm start
+      npm start
